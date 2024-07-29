@@ -16,13 +16,13 @@
   
   h1{
     font-size: 90px;
-    color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
     margin: 10px 50px 20px;
     margin-top: 3%;
   }
   
   p{
-    color: #ffffff;
+    color: #000000;
     margin: 10px 50px 20px;
     margin-top: 3%;
     font-size: 35px;
