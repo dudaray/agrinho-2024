@@ -1,7 +1,8 @@
 .menu-h ul{
   list-style: none;
   padding: 0 20%;
-  background-color: rgb(8, 68, 35);   
+  background-color: rgb(8, 68, 35);
+  display: flex;   
 }
 
 .menu-h ul li{
