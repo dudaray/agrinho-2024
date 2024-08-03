@@ -1,93 +1,64 @@
-.menu-h ul{
-  list-style: none;
-  padding: 0 20%;
-  background-color: rgb(8, 68, 35);
-  display: flex;   
-}
-
-.menu-h ul li{
-  display: inline;
-}
-
-.menu-h ul li a{
-  color: #FFFFFF;
-  padding: 15px;
-  display: inline-block;
-  text-decoration: none;
-  transition: background ,4s; 
-}
-
-.menu-h ul li a:hover{
-  background-color: rgb(114, 158, 212);
-  
-}
 *{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: 'Poppins', sans-serif;
-    list-style: none;
-    text-decoration: none;
-  }
-  
-  body {
-  background-color: rgb(13, 133, 13);
-  background-image: "stunning-view-from-vineyard-with-grapevines-nature.jpg";
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-  background-size: 100% 100%;
-  }
-  
-  h1{
-    font-size: 80px;
-    color: rgb(255, 255, 255);
-    margin: 30px 50px 40px;
-    margin-top: 40px;
-  }
-  
-  p{
-    color: #ffffff;
-    margin: 30px 50px 40px;
-    margin-top: 3%;
-    font-size: 35px;
-  }
-  
-  .home{
-    height: 100vh;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    padding: 0px 10%;
-  }
-  
-  .home-text{
-    max-width: 37rem;
-  }
-  
-  .home-text .text-h4{
-    font-size: 1.9rem;
-    color: var(--white);
-    margin-bottom: 1rem;
-  }
-  
-  .home-text .text-h1{
-    font-size: 80px;
-    margin-bottom: 1rem;
-    line-height: 4rem;
-  }
-  .home-text p{
-    margin-bottom: 4rem;
-  }
-  .home-btn{
-    padding: 15px 45px;
-    background: var(--white);
-    color: var(--dark);
-    border-radius: 10px;
-    font-weight: 700;
-    transition: all 0.5s;
-  }
-  .home-img{
-    display: flex;
-    justify-content: center;
-    background-image: "stunning-view-from-vineyard-with-grapevines-nature.jpg";
-  }
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+  list-style: none;
+  text-decoration: none;
+}
+
+body {
+background-image: url(stunning-view-from-vineyard-with-grapevines-nature.jpg);
+background-repeat: no-repeat;
+background-attachment: fixed;
+background-size: 100% 100%;
+}
+
+h1{
+  font-size: 90px;
+  color: rgb(255, 255, 255);
+  margin: 10px 50px 20px;
+  margin-top: 3%;
+}
+
+p{
+  color: #ffffff;
+  margin: 10px 50px 20px;
+  margin-top: 3%;
+  font-size: 35px;
+}
+
+.home{
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0px 10%;
+}
+
+.home-text{
+  max-width: 37rem;
+}
+
+.home-text .text-h4{
+  font-size: 1.9rem;
+  color: var(--white);
+  margin-bottom: 1rem;
+}
+
+.home-text .text-h1{
+  font-size: 95px;
+  margin-bottom: 1rem;
+  line-height: 4rem;
+}
+.home-text p{
+  margin-bottom: 4rem;
+}
+.home-btn{
+  padding: 15px 45px;
+  background: var(--white);
+  color: var(--dark);
+  border-radius: 10px;
+  font-weight: 700;
+  transition: all 0.5s;
+}
